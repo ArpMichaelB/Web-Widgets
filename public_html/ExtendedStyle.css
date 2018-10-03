@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2017, 10:42:22 AM
+    Author     : Michael
+*/
+
+div#button { background-image: url("Chords/fretboard.png"); background-size: contain; background-repeat: no-repeat; height: 5em; width: 5em; color: white; margin-bottom: 1em; float:left;}
+div#button p[id ^= "inside"] { padding-top: 20%; padding-left: 32%;}
+nav.menu div#buttonplay {background-image: url("Chords/fretboard.png"); background-size: contain; background-repeat: no-repeat; height: 5em; width: 5em; color: white; margin-bottom: 1em; display:none;}
+nav.menu div#buttonplay p[id ^= "inside"] { padding-top: 20%; padding-left: 20%;}
+nav.menu:hover div#buttonplay {display:inline-block; background-image: none; background-color: blue; margin-right: 1em;}
+div#instruct { font-size: 2em; font-weight: lighter; font-kerning: auto; font-family: 'Aladin', cursive;}
+a#path {font-size: 2em; font-family: 'Boogaloo', cursive; color: cyan;}
+body#Enter {background-image: url("Chords/Background.jpg"); background-size:cover; color:white; font-family: 'Aladin', cursive;}
+body#Chord {background-color:coral; color:white; font-family: 'Aladin', cursive;}
+p#tip {font-size: .75em; color: crimson; font-family: 'Aladin', cursive;}
